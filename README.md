@@ -1,4 +1,4 @@
-# No Jacks Tower Defense
+# Buzz Tower Defense
 
 ### Description
 This is a Georgia Tech Yellow Jackets vs. Georgia Bulldogs themed Tower Defense game created for my Objects and Design course!
