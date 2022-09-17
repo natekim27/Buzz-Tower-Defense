@@ -1,5 +1,8 @@
 # No Jacks Tower Defense
 
+### Description
+This is a Georgia Tech vs. Bulldogs themed Tower Defense game created for my Objects and Design course!
+
 ### Demo Video
 https://www.youtube.com/watch?v=AZiqeDBOgwM
 
