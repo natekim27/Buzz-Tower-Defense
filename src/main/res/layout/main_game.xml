@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_game_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_map">
+
+
+    <ImageButton
+        android:id="@+id/patch3"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        android:onClick="placeTower"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577"
+        app:srcCompat="@drawable/dirt_patch" />
+
+    <ImageButton
+        android:id="@+id/patch6"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        android:onClick="placeTower"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
+        app:srcCompat="@drawable/dirt_patch" />
+
+    <ImageButton
+        android:id="@+id/patch1"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        android:onClick="placeTower"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593"
+        app:srcCompat="@drawable/dirt_patch" />
+
+    <ImageButton
+        android:id="@+id/patch4"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        android:onClick="placeTower"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244"
+        app:srcCompat="@drawable/dirt_patch" />
+
+    <ImageButton
+        android:id="@+id/patch2"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        android:onClick="placeTower"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365"
+        app:srcCompat="@drawable/dirt_patch" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="389dp"
+        android:layout_marginStart="724dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tower_board" />
+
+    <TextView
+        android:id="@+id/boxingBuzzLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:text="$75"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/wizardBuzzLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="8dp"
+        android:text="$150"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/wizardPurchase"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/countryBuzzLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:text="$250"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/monument"
+        android:layout_width="72dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="84dp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tech_tower" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="42dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.163"
+        app:srcCompat="@drawable/boxing_buzz" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="39dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="155dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/wizard_buzz" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="43dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="267dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/country_buzz" />
+
+    <Button
+        android:id="@+id/boxerPurchase"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:color/transparent"
+        android:onClick="purchase"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/wizardPurchase"
+        android:layout_width="64dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:color/transparent"
+        android:onClick="purchase"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/countryPurchase"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:color/transparent"
+        android:onClick="purchase"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/patch7"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        android:onClick="placeTower"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47"
+        app:srcCompat="@drawable/dirt_patch" />
+
+    <ImageButton
+        android:id="@+id/patch5"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        android:onClick="placeTower"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715"
+        app:srcCompat="@drawable/dirt_patch" />
+
+    <Button
+        android:id="@+id/combatbutton"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/name_wood"
+        android:onClick="startCombat"
+        android:text="Start Level 1"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coins" />
+
+    <ImageView
+        android:id="@+id/healthImageView"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/healthDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="100"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/healthImageView"
+        app:layout_constraintTop_toTopOf="@+id/healthImageView"
+        android:gravity="right"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/moneyDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="1000"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        android:gravity="right"
+        android:textAlignment="gravity" />
+
+    <ImageView
+        android:id="@+id/upgradeBoard"
+        android:layout_width="302dp"
+        android:layout_height="67dp"
+        android:translationZ="-1px"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/wood_message_board" />
+
+    <ImageView
+        android:id="@+id/upgradeAttackSpeed"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="upgrade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/upgradeBoard"
+        app:srcCompat="@drawable/attack_speed_icon" />
+
+    <TextView
+        android:id="@+id/firingRateUpgradeCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="50"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/upgradeAttackSpeed"
+        app:layout_constraintEnd_toStartOf="@+id/upgradeAttackSpeed" />
+
+    <ImageView
+        android:id="@+id/upgradeDamage"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="upgrade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/upgradeBoard"
+        app:srcCompat="@drawable/damage_icon" />
+
+    <TextView
+        android:id="@+id/damageUpgradeCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="24dp"
+        android:text="50"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/upgradeDamage" />
+
+    <ImageView
+        android:id="@+id/upgradeRange"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="upgrade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/upgradeBoard"
+        app:srcCompat="@drawable/range_icon" />
+
+    <TextView
+        android:id="@+id/rangeUpgradeCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="50"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/upgradeRange"
+        app:layout_constraintEnd_toStartOf="@+id/upgradeRange" />
+
+    <TextView
+        android:id="@+id/nameDisplay"
+        android:layout_width="92dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Player 1"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:translationZ="-10px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/username" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
